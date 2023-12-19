@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ink Free:wght@400&display=swap">
+</head>
+<body>
+    <div class="main">
+        <div class="rectangle-parent">
+            <div class="group-child"></div>
+            <div class="free-recipes">Free recipes</div>
+        </div>
+        <div>
+        <input type="text" placeholder="Search" class="Search" id="Search">
+    </div>
+        <div class="rectangle-container">
+            <div class="group-inner"></div>
+            <div class="content">
+                This is a website where you can get new types of dishes by just refreshing the page. You will also get their recipes by clicking on the picture of the dish.
+            </div>
+        </div>
+        <div class="random-meal-of">Random meal of the day:</div>
+        <img class="randommeal" alt="" src="" />
+
+        <a class="lamb-pilaf" href="https://www.themealdb.com/meal/53083-Lamb-Pilaf-(Plov)-Recipe" target="_blank"></a>
+
+        <div class="modal-container">
+            <div class="modal-content">
+                <span class="close-button" onclick="closeModal()">X</span>
+                <img class="modal-image" alt="">
+                <ul class="ingredients-list"></ul>
+                <p class="instructions"></p>
+            </div>
+        </div>
+    </div>
+<div class="search-results"></div>
+    <script src="script.js"></script>
+</body>
+</html>
